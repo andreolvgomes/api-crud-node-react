@@ -7,7 +7,7 @@ var Role = require('../model/Role');
 
 sequelize.sync();
 
-// find onde Employee
+// find one Employee
 //
 controllers.get = async (req, res) => {
   const { id } = req.params;
